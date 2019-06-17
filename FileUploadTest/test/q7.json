@@ -1,0 +1,26 @@
+{
+  "id": "1d1fd9d3-5407-4e8a-bee0-b383a0637648",
+  "version": 1,
+  "type": 3,
+  "question": {
+    "title": "Who is your preferred Cloud services vendor?"
+  },
+  "choices": [
+    {
+      "id": "0",
+      "label": "Amazon Web Services"
+    },
+    {
+      "id": "1",
+      "label": "Microsoft Azure"
+    },
+    {
+      "id": "2",
+      "label": "Google Cloud Platform"
+    },
+    {
+      "id": "3",
+      "label": "Alibaba Cloud"
+    }
+  ]
+}

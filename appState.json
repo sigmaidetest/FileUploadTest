@@ -1,0 +1,118 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d4316101-3d87-4595-ad22-d584f79aa51e": {
+        "id": "d4316101-3d87-4595-ad22-d584f79aa51e",
+        "parent": null,
+        "name": "FileUploadTest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "6a99e5fd-f118-4419-ac65-59c44296669c",
+          "e9a546bf-04a4-4312-9a2c-a6329448d723",
+          "93fd0ecb-a26f-44cd-b7e2-9c5d59455641"
+        ],
+        "isRemovable": false,
+        "filePath": "FileUploadTest"
+      },
+      "6a99e5fd-f118-4419-ac65-59c44296669c": {
+        "id": "6a99e5fd-f118-4419-ac65-59c44296669c",
+        "parent": "d4316101-3d87-4595-ad22-d584f79aa51e",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "FileUploadTest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "e9a546bf-04a4-4312-9a2c-a6329448d723": {
+        "id": "e9a546bf-04a4-4312-9a2c-a6329448d723",
+        "parent": "d4316101-3d87-4595-ad22-d584f79aa51e",
+        "name": "q5.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "FileUploadTest/q5.json",
+        "code": "{\n  \"id\": \"09611f41-a7d7-45cd-afb3-528b5c75ed37\",\n  \"version\": 1,\n  \"type\": 0,\n  \"question\": {\n    \"title\": \"How would you rate the responsiveness of Sigma IDE?\"\n  }\n}"
+      },
+      "93fd0ecb-a26f-44cd-b7e2-9c5d59455641": {
+        "id": "93fd0ecb-a26f-44cd-b7e2-9c5d59455641",
+        "parent": "d4316101-3d87-4595-ad22-d584f79aa51e",
+        "name": "test",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "3cae0158-05b9-4fac-abdb-5eb8a68ea14c"
+        ],
+        "isRemovable": true,
+        "filePath": "FileUploadTest/test"
+      },
+      "3cae0158-05b9-4fac-abdb-5eb8a68ea14c": {
+        "id": "3cae0158-05b9-4fac-abdb-5eb8a68ea14c",
+        "parent": "93fd0ecb-a26f-44cd-b7e2-9c5d59455641",
+        "name": "q7.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "FileUploadTest/test/q7.json",
+        "code": "{\n  \"id\": \"1d1fd9d3-5407-4e8a-bee0-b383a0637648\",\n  \"version\": 1,\n  \"type\": 3,\n  \"question\": {\n    \"title\": \"Who is your preferred Cloud services vendor?\"\n  },\n  \"choices\": [\n    {\n      \"id\": \"0\",\n      \"label\": \"Amazon Web Services\"\n    },\n    {\n      \"id\": \"1\",\n      \"label\": \"Microsoft Azure\"\n    },\n    {\n      \"id\": \"2\",\n      \"label\": \"Google Cloud Platform\"\n    },\n    {\n      \"id\": \"3\",\n      \"label\": \"Alibaba Cloud\"\n    }\n  ]\n}"
+      }
+    },
+    "deletedFiles": [
+      "FileUploadTest/q1.json",
+      "FileUploadTest/q5.json"
+    ],
+    "rootNode": "d4316101-3d87-4595-ad22-d584f79aa51e",
+    "openFiles": [
+      "6a99e5fd-f118-4419-ac65-59c44296669c",
+      "e9a546bf-04a4-4312-9a2c-a6329448d723",
+      "3cae0158-05b9-4fac-abdb-5eb8a68ea14c"
+    ],
+    "currentFileId": "6a99e5fd-f118-4419-ac65-59c44296669c",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "FileUploadTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1560755703886
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "FileUploadTest",
+      "url": "https://github.com/sigmaidetest/FileUploadTest"
+    }
+  }
+}
